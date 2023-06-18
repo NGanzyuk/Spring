@@ -22,6 +22,7 @@
     </build>
     <modules>
         <module>HTTP</module>
+        <module>Forms</module>
     </modules>
 
     <properties>
