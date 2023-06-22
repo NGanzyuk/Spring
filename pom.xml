@@ -23,6 +23,7 @@
     <modules>
         <module>HTTP</module>
         <module>Forms</module>
+        <module>Handlers</module>
     </modules>
 
     <properties>
