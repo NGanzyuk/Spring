@@ -22,8 +22,8 @@
     </build>
     <modules>
         <module>HTTP</module>
-        <module>Forms</module>
         <module>Handlers</module>
+        <module>Query</module>
     </modules>
 
     <properties>
