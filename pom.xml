@@ -24,6 +24,7 @@
         <module>HTTP</module>
         <module>Handlers</module>
         <module>Query</module>
+        <module>CRUD</module>
     </modules>
 
     <properties>
