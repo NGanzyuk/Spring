@@ -1,8 +1,8 @@
-package service;
+package feature.di_annotation.service;
 
-import exception.NotFoundException;
-import model.Post;
-import repository.PostRepository;
+import feature.di_annotation.exception.NotFoundException;
+import feature.di_annotation.model.Post;
+import feature.di_annotation.repository.PostRepository;
 
 import java.util.Map;
 

@@ -1,4 +1,4 @@
-package exception;
+package noConfig.exception;
 
 public class NotFoundException extends RuntimeException {
   public NotFoundException() {

@@ -1,4 +1,4 @@
-package model;
+package noConfig.model;
 
 public class Post {
     private long id;

@@ -1,8 +1,10 @@
-package servlet;
+package feature.di_java.servlet;
 
-import controller.PostController;
-import repository.PostRepository;
-import service.PostService;
+import feature.di_java.controller.PostController;
+import feature.di_java.config.Config;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import feature.di_java.repository.PostRepository;
+import feature.di_java.service.PostService;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -10,12 +12,11 @@ import javax.servlet.http.HttpServletResponse;
 
 public class MainServlet extends HttpServlet {
     private PostController controller;
-
+    private AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(Config.class);
     @Override
     public void init() {
-        final var repository = new PostRepository();
-        final var service = new PostService(repository);
-        controller = new PostController(service);
+        controller = context.getBean(PostController.class);
+
     }
 
     @Override

@@ -1,8 +1,8 @@
-package controller;
+package feature.di_java.controller;
 
 import com.google.gson.Gson;
-import model.Post;
-import service.PostService;
+import feature.di_java.model.Post;
+import feature.di_java.service.PostService;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;

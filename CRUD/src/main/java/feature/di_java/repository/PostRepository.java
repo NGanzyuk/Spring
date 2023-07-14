@@ -1,6 +1,6 @@
-package repository;
+package feature.di_java.repository;
 
-import model.Post;
+import feature.di_java.model.Post;
 
 import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
